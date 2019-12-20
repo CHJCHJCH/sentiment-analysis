@@ -21,5 +21,13 @@
   "tie_weights_": true,
   "torchscript": false,
   "use_bfloat16": false,
-  "vocab_size": 30522
+  "vocab_size": 30522,
+  "label2id": {
+    "NEGATIVE": 0,
+    "POSITIVE": 1
+  },
+  "id2label": {
+    "0": "NEGATIVE",
+    "1": "POSITIVE"
+  }
 }
