@@ -1,4 +1,7 @@
 {
+  "architectures": [
+    "DistilBertForSequenceClassification"
+  ],
   "activation": "gelu",
   "attention_dropout": 0.1,
   "dim": 768,
