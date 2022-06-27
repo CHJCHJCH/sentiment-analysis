@@ -3,6 +3,7 @@ language: en
 license: apache-2.0
 datasets:
 - sst2
+- glue
 ---
 
 # DistilBERT base uncased finetuned SST-2
