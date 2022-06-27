@@ -4,6 +4,42 @@ license: apache-2.0
 datasets:
 - sst2
 - glue
+model-index:
+- name: distilbert-base-uncased-finetuned-sst-2-english
+  results:
+  - task:
+      type: text-classification
+      name: Text Classification
+    dataset:
+      name: glue
+      type: glue
+      config: sst2
+      split: validation
+    metrics:
+    - name: Accuracy
+      type: accuracy
+      value: 0.9105504587155964
+      verified: true
+    - name: Precision
+      type: precision
+      value: 0.8978260869565218
+      verified: true
+    - name: Recall
+      type: recall
+      value: 0.9301801801801802
+      verified: true
+    - name: AUC
+      type: auc
+      value: 0.9716626673402374
+      verified: true
+    - name: F1
+      type: f1
+      value: 0.9137168141592922
+      verified: true
+    - name: loss
+      type: loss
+      value: 0.39013850688934326
+      verified: true
 ---
 
 # DistilBERT base uncased finetuned SST-2
