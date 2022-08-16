@@ -40,6 +40,59 @@ model-index:
       type: loss
       value: 0.39013850688934326
       verified: true
+  - task:
+      type: text-classification
+      name: Text Classification
+    dataset:
+      name: sst2
+      type: sst2
+      config: default
+      split: train
+    metrics:
+    - name: Accuracy
+      type: accuracy
+      value: 0.9885521685548412
+      verified: true
+    - name: Precision Macro
+      type: precision
+      value: 0.9881965062029833
+      verified: true
+    - name: Precision Micro
+      type: precision
+      value: 0.9885521685548412
+      verified: true
+    - name: Precision Weighted
+      type: precision
+      value: 0.9885639626373408
+      verified: true
+    - name: Recall Macro
+      type: recall
+      value: 0.9886145346602994
+      verified: true
+    - name: Recall Micro
+      type: recall
+      value: 0.9885521685548412
+      verified: true
+    - name: Recall Weighted
+      type: recall
+      value: 0.9885521685548412
+      verified: true
+    - name: F1 Macro
+      type: f1
+      value: 0.9884019815052447
+      verified: true
+    - name: F1 Micro
+      type: f1
+      value: 0.9885521685548412
+      verified: true
+    - name: F1 Weighted
+      type: f1
+      value: 0.9885546181087554
+      verified: true
+    - name: loss
+      type: loss
+      value: 0.040652573108673096
+      verified: true
 ---
 
 # DistilBERT base uncased finetuned SST-2
