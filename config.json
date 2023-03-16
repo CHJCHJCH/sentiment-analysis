@@ -9,13 +9,13 @@
   "finetuning_task": "sst-2",
   "hidden_dim": 3072,
   "id2label": {
-    "0": "NEGATIVE",
-    "1": "POSITIVE"
+    "0": " NOT SPAM",
+    "1": "SPAM"
   },
   "initializer_range": 0.02,
   "label2id": {
-    "NEGATIVE": 0,
-    "POSITIVE": 1
+    "NOT SPAM": 0,
+    "SPAM": 1
   },
   "max_position_embeddings": 512,
   "model_type": "distilbert",
