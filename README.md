@@ -131,6 +131,7 @@ This model reaches an accuracy of 91.3 on the dev set (for comparison, Bert bert
 - **Parent Model:** For more details about DistilBERT, we encourage users to check out [this model card](https://huggingface.co/distilbert-base-uncased).
 - **Resources for more information:**
     - [Model Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/distilbert#transformers.DistilBertForSequenceClassification)
+    - [DistilBERT paper](https://arxiv.org/abs/1910.01108)
 
 ## How to Get Started With the Model
 
