@@ -3,7 +3,7 @@ language: en
 license: apache-2.0
 datasets:
 - sst2
-- glue
+- nyu-mll/glue
 model-index:
 - name: distilbert-base-uncased-finetuned-sst-2-english
   results:
